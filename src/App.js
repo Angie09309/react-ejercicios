@@ -3,6 +3,9 @@ import Input from "./components/Input";
 import Contador from "./components/Contador";
 import Temporizador from "./components/Temporizador";
 import Botón from "./components/Botón";
+import { Component } from "react";
+import Componente from "./components/Componente";
+import ContadorParOImpar from "./components/ContadorParOImpar";
 
 function App() {
   return (
@@ -10,7 +13,9 @@ function App() {
       {/* <Input /> */}
       {/* <Contador></Contador> */}
       {/* <Temporizador /> */}
-      <Botón />
+      {/* <Botón /> */}
+      {/* <Componente /> */}
+      <ContadorParOImpar />
     </div>
   );
 }
