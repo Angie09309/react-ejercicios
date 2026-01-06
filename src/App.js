@@ -8,6 +8,7 @@ import Componente from "./components/Componente";
 import ContadorParOImpar from "./components/ContadorParOImpar";
 import Toggle from "./components/Toggle";
 import BotonColor from "./components/BotonColor";
+import AvisoAutomático from "./components/AvisoAutomático.jsx";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       {/* <Componente /> */}
       {/* <ContadorParOImpar /> */}
       {/* <Toggle /> */}
-      <BotonColor />
+      {/* <BotonColor /> */}
+      <AvisoAutomático />
     </div>
   );
 }
