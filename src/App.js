@@ -7,6 +7,7 @@ import { Component } from "react";
 import Componente from "./components/Componente";
 import ContadorParOImpar from "./components/ContadorParOImpar";
 import Toggle from "./components/Toggle";
+import BotonColor from "./components/BotonColor";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       {/* <Botón /> */}
       {/* <Componente /> */}
       {/* <ContadorParOImpar /> */}
-      <Toggle />
+      {/* <Toggle /> */}
+      <BotonColor />
     </div>
   );
 }
