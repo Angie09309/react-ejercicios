@@ -6,6 +6,7 @@ import Botón from "./components/Botón";
 import { Component } from "react";
 import Componente from "./components/Componente";
 import ContadorParOImpar from "./components/ContadorParOImpar";
+import Toggle from "./components/Toggle";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <Temporizador /> */}
       {/* <Botón /> */}
       {/* <Componente /> */}
-      <ContadorParOImpar />
+      {/* <ContadorParOImpar /> */}
+      <Toggle />
     </div>
   );
 }
